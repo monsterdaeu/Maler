@@ -1,5 +1,8 @@
-import makeWASocket, {
+import {
+  makeWASocket,
   useMultiFileAuthState,
+  DisconnectReason
+} from '@whiskeysockets/baileys';
   delay,
   DisconnectReason
 } from '@whiskeysockets/baileys';
